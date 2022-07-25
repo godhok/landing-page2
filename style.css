@@ -1,0 +1,35 @@
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/*font-family: 'Righteous', cursive;
+  font-family: 'Sarala', sans-serif;*/
+
+* { /*reset CSS*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  /*configurando a fonte do meu jeito*/
+  font-size: 62.5%;
+
+  /* 1rem = 100% = 16px (normalmente) */
+  /* 1rem = 62.5% = 10px (agora) */
+
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cabecalho-imagem {
+  height: 7.2rem;
+  padding: 2rem;
+}
