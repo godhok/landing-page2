@@ -91,6 +91,10 @@ body {
   color: #2F2325;
 }
 
+.conteudo-principal-texto-botao:hover {
+  background-color: rgba(0236, 214, 196, 0.53);
+}
+
 .conteudo-principal-imagem {
   height: 43rem;
 }
@@ -129,7 +133,7 @@ body {
 
 .rodape-imagem {
   height: 4.8rem;
-  
+
   display: block;
   margin: 0 auto;
 }
